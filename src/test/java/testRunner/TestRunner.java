@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
         glue = {"steps"},
         plugin = {"pretty", "html:target/reports/report.html"},
         dryRun = false,
-        stepNotifications =  true,
-        tags = "@invalid"
+        stepNotifications =  true
+        //tags = "@register"
 
 
 )
