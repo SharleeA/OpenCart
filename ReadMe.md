@@ -1,9 +1,9 @@
 # OpenCard Demo UI Tests
-# About
+## About
 This is a demo UI Maven test project for the OpenCart website. It uses java, Cucumber, Selenium webDriver, and built in the Intellij IDEA 2021.3.1 (Community Edition).
 The tests will be executed locally in a Chrome browser.
 
-# prerequisite
+## Prerequisite
 1. Have openjdk version 11.0.00 installed
 2. Have Intellij installed
 3. Enable Gherkin and Cucumber for java in your Intellij
@@ -18,7 +18,7 @@ The tests will be executed locally in a Chrome browser.
 4. Test result report can be found at "target/reports/report.html".
 
 
-## Have chosen three most basic tests for account registration function:
-1 check error message raised if registering with an invalid credential.
-2 check user can create an account with unique email.
-3 check user can log into their account using valid credential.
+## I have chosen the three most basic tests for this account registration function:
+1. Check error message raised if registering with an invalid credential.
+2. Check user can create an account with a unique email.
+3. Check user can log into their account using a valid credential.
