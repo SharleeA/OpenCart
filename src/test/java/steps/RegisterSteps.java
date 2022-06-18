@@ -37,9 +37,9 @@ public class RegisterSteps {
         driver.findElement(By.cssSelector("[type='submit']")).click();
     }
 
-    @Then("a new account created")
-    public void a_new_account_created() throws InterruptedException {
-        Thread.sleep(1000);
+    @Then("a new account is created")
+    public void a_new_account_is_created() throws InterruptedException {
+        Thread.sleep(2000);
         String expTxt = driver.findElement(By.cssSelector("#content h1")).getText();
         if (!expTxt.equals("Your Account Has Been Created!"))
             fail("Error: Login Failed!");

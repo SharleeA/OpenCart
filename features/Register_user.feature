@@ -7,7 +7,7 @@ Feature: Allow user to register on the site
     Given I register a new account
      When I provide an unique email with all mandatory fields
       And I submit the form
-     Then a new account created
+     Then a new account is created
 
   @register
   Scenario: Invalid credentials
