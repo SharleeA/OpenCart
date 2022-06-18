@@ -12,7 +12,13 @@ The tests will be executed locally in a Chrome browser.
 
 
 ## How setup this project
-1. clone this project form https://github.com/SharleeA/OpenCart.git
-3. from Intellij run maven clean install to download the dependencies and build the project for the first time.
-4. right-click the src/test/java/testRunner/TestRunner.java file and select "Run 'testRunner'" option.
-5. test result report can be found at "target/reports/report.html".
+1. Clone this project form https://github.com/SharleeA/OpenCart.git
+2. From Intellij run maven clean install to download the dependencies and build the project for the first time.
+3. Right-click the src/test/java/testRunner/TestRunner.java file and select "Run 'testRunner'" option.
+4. Test result report can be found at "target/reports/report.html".
+
+
+## Basic test coverage for account registration  
+1 check error message raised if registering with an invalid credential.
+2 check user can create an account with unique email.
+3 check user can log into their account using valid credential.
